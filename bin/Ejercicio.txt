@@ -1,0 +1,13 @@
+En un instituto de computación se dictan  10 cursos distintos. Los cursos están numerados, con números consecutivos del 1 al 10.  Los cursos del 1-5 son sobre tecnologías y aplicaciones  Microsoft y los del  de 6-10 son sobre  Linux. El valor de un curso Microsoft es de $1.500 mensuales y el de Linux $ 1.250 mensuales
+Al finalizar el mes se cuenta con una planilla que indica la cantidad de alumnos que realizó cada curso.
+Se solicita desarrollar un programa que permita al usuario al final del mes,  ingresar los datos de cantidad de alumnos de cada curso  y almacene los datos en un vector.
+Luego del ingreso de los datos, informar el total de alumnos que realizo un curso referente a tecnología Microsoft.
+Permitir al usuario ingresar un número de curso a consultar y que el sistema le informe la cantidad de ingresos ($$) que se generaron por ese curso.
+
+Funciones:
+
+Prototipo:	Float   Devolver_total_alumnos_Microsoft (int  cursos [10]);
+     Descripción:	Función que recibe por parámetro el vector con los datos que ingreso el usuario y retorna el total de alumnos que realizo cursos de tecnología Microsoft. 
+
+Prototipo:	Float   Devolver_Ingresos_Curso (int   cursos [10], int nro_curso);
+     Descripción:	Función que recibe por parámetro el vector con los datos que ingreso el usuario y un numero de curso que se desea consultar, y retorna el total de ingresos($$) generados por ese curso.
